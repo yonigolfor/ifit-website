@@ -1,0 +1,21 @@
+/* src/components/Description.css */
+.description {
+    margin: 40px 0;
+    padding: 20px;
+    /* background-color: #f8f9fa; */
+    background-color: #25282c;
+
+    border-radius: 8px;
+  }
+  
+  .description h2 {
+    font-size: 2em;
+    color: #007bff;
+  }
+  
+  .description p {
+    font-size: 1.2em;
+    color: #6c757d;
+    line-height: 1.6;
+  }
+  
