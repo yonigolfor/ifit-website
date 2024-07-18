@@ -7,18 +7,18 @@
   }
   
   .gallery h2 {
-    font-size: 2em;
+    font-size: 2vw;
     color: #007bff;
   }
   
   .image-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 20vw;
   }
   
   .image-container img {
-    width: 200px;
+    width: 16vw;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }

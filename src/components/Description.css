@@ -9,12 +9,12 @@
   }
   
   .description h2 {
-    font-size: 2em;
+    font-size: 1vw;
     color: #007bff;
   }
   
   .description p {
-    font-size: 1.2em;
+    font-size: 1.2vw;
     color: #6c757d;
     line-height: 1.6;
   }

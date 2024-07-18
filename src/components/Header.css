@@ -1,15 +1,15 @@
 /* src/components/Header.css */
 .header {
     background-color: #1c1d1e;
-    padding: 20px;
+    /* padding: 20  px; */
     border-bottom: 1px solid #edefe9;
     display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 1vw 1vw;
   }
 
   .header-logo {
-    width: 12rem; 
+    width: 12vw; 
     /* margin-right: 10px; Optional: Adjust spacing */
   }
 
@@ -21,7 +21,7 @@
   
   .header h1 {
     margin: 0;
-    font-size: 6rem;
+    font-size: 6vw;
     color: #fff9df;
     font-weight: bolder;
   }
@@ -31,7 +31,7 @@
     /* font-size: 1.2em; */
     /* color: #6c757d; */
     margin: 0;
-    font-size: 2rem;
+    font-size: 2vw;
     font-weight: bold;
     background: linear-gradient(90deg, rgb(255, 169, 9), rgb(255, 255, 58));
     -webkit-background-clip: text;
