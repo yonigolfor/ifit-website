@@ -3,11 +3,11 @@
   text-align: center;
   font-family: Arial, sans-serif;
   color: #333;
-  padding: 20px;
+  /* padding: 2vw; */
 }
 
 .App .content {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Adjust the fraction values as needed */
-  gap: 20px; /* Optional: adjust the gap between the components */
+  grid-template-columns: 1.3fr 1fr; /* Adjust the fraction values as needed */
+  /* gap: 20px; Optional: adjust the gap between the components */
 } 
