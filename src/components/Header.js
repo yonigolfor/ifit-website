@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header">
       <h1>iFit</h1>
-      <p>Revolutionize Your Workout Experience</p>
+      <p>עקוב אחר האימון - שתף עם חברים - תגיע להישגים</p>
     </header>
   );
 }

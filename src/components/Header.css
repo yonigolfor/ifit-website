@@ -8,7 +8,8 @@
   .header h1 {
     margin: 0;
     font-size: 6.5em;
-    color: #d7d2bb;
+    color: #fff9df;
+    font-weight: bolder;
   }
   
   .header p {
