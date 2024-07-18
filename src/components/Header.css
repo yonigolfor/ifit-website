@@ -3,6 +3,18 @@
     background-color: #1c1d1e;
     padding: 20px;
     border-bottom: 1px solid #edefe9;
+    display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  }
+
+  .header-logo {
+    width: 200px; /* Adjust size as needed */
+    /* margin-right: 10px; Optional: Adjust spacing */
+  }
+
+  .header-content {
+    flex: 1; /* Ensures the content takes remaining space */
   }
   
   .header h1 {

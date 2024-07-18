@@ -5,3 +5,9 @@
   color: #333;
   padding: 20px;
 }
+
+.App .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Adjust the fraction values as needed */
+  gap: 20px; /* Optional: adjust the gap between the components */
+} 
