@@ -7,9 +7,9 @@ function Header() {
   return (
     <header className="header">
       <img src={model2} alt="iFit Logo" className="header-logo" />
-      <div className='header-content'>
+      <div className='header-content' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: '100%', overflow: 'hidden', flexDirection: 'column' }}>
         <h1>iFit</h1>
-        <p>עקוב אחר האימון - שתף עם חברים - תגיע להישגים</p>
+        <p style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', flex: '1 1 auto', maxWidth: '100%', margin: '0' }}>עקוב אחר האימון - שתף עם חברים - תגיע להישגים</p>
       </div>
     </header>
   );
