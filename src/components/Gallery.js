@@ -1,11 +1,8 @@
-// src/components/Gallery.js
 import React from 'react';
 import './Gallery.css';
-// import appImage1 from '../images/appImage1.png';
-
-import mockup1 from '../images/mockups/double onboarding mockup.png'
-import mockup2 from '../images/mockups/onBoarding mockup.png'
-import mockup3 from '../images/mockups/workout mockup.png'
+import mockupBarChart from '../images/mockups/mockup exercise barchart.png'
+import mockupMainFeed from '../images/mockups/mockup mainfeed.png'
+import mockupStopWatch from '../images/mockups/mockup stopwatch2.png'
 
 
 function Gallery() {
@@ -13,9 +10,9 @@ function Gallery() {
     <section className="gallery">
       <div className='image-container-container'>
         <div className="image-container">
-          <img src={mockup2} alt="App preview 1" />
-          <img src={mockup1} alt="App preview 1" />
-          <img src={mockup3} alt="App preview 1" />
+          <img className='rotate-z' src={mockupMainFeed} alt="App preview 1" />
+          <img className='rotate-z' src={mockupBarChart} alt="App preview 1" />
+          <img className='rotate-z' src={mockupStopWatch} alt="App preview 3" />
         </div>
       </div>
     </section>

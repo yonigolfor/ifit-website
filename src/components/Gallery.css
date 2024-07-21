@@ -14,18 +14,22 @@
   .image-container-container {
     background: linear-gradient(to bottom, rgba(154, 154, 154, 0.2), rgba(255, 255, 255, 0.701));
     border-radius: 8vw;
-    /* padding: 3vw; */
   }
    
   .image-container {
     display: flex;
     justify-content: center;
-    gap: 2vw; 
+    gap: 4vw; 
   }
   
   .image-container img {
-    width: 28vw;
+    width: 20vw;
+    /* height: auto; */
     border-radius: 8px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   }
   
+  .rotate-z {
+    transform: rotateZ(15deg); /* Rotate 45 degrees along the z-axis */
+    transition: transform 0.5s; /* Optional: Add transition for smooth rotation */
+  }
