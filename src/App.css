@@ -12,7 +12,7 @@
   display: grid;
   grid-template-columns: 1.3fr 1fr; /* Adjust the fraction values as needed */
 /* }   */
-
+/* 
 .background-image {
   position: absolute;
   top: 0;
@@ -25,4 +25,4 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */

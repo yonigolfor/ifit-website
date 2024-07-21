@@ -8,13 +8,10 @@ import ContactForm from './components/ContactForm';
 function App() {
   return (
     <div className="App">
-      {/* <div className='background-image'> */}
-        <Header />
-        <Gallery />
-      {/* </div> */}
-        <ContactForm />
-        <Description/>
-      
+      <Header />
+      <Gallery />
+      <ContactForm />
+      <Description/>
     </div>
   );
 }
