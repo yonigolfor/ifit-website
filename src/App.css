@@ -3,11 +3,26 @@
   text-align: center;
   font-family: Arial, sans-serif;
   color: #333;
-  /* padding: 2vw; */
+  background-color: rgb(26, 22, 22);
+  
 }
 
-.App .content {
+
+/* .App .content {
   display: grid;
   grid-template-columns: 1.3fr 1fr; /* Adjust the fraction values as needed */
-  /* gap: 20px; Optional: adjust the gap between the components */
-} 
+/* }   */
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  background-image: url('/Users/yonigolfor/Desktop/Code/websites/ifit-website/src/images/facepulls.png');
+  opacity: 0.4; 
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

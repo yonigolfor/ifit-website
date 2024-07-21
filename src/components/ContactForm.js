@@ -42,7 +42,7 @@ function ContactForm() {
 { sentState === 0 &&
     (  
         <>
-    <h2>Stay Updated</h2>
+    <h2>לקבלת עדכונים</h2>
     { !loading && 
       <form onSubmit={handleSubmit} ref={form}>
         <input 
@@ -53,7 +53,7 @@ function ContactForm() {
           placeholder="Enter your email" 
           required 
         />
-        <button type="submit">Notify Me</button>
+        <button type="submit" dir='rtl'>תעדכנו אותי!</button>
       </form>
 }
       </>

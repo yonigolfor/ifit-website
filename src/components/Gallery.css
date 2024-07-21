@@ -11,15 +11,20 @@
     color: #007bff;
   }
   
+  .image-container-container {
+    background: linear-gradient(to bottom, rgba(154, 154, 154, 0.4), rgba(255, 255, 255, 0.6));
+    border-radius: 8vw;
+    padding: 3vw;
+  }
   .image-container {
     display: flex;
     justify-content: center;
-    gap: 20vw;
+    gap: 2vw; 
   }
   
   .image-container img {
-    width: 20vw;
+    width: 18vw;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   }
   

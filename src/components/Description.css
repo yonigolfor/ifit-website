@@ -1,21 +1,21 @@
 /* src/components/Description.css */
 .description {
-    margin: 40px 0;
-    padding: 20px;
-    /* background-color: #f8f9fa; */
+  /* margin makes gap in content */
+    /* margin: 40px 0;  */
+    padding: 2vw;
     background-color: #25282c;
-
     border-radius: 8px;
   }
   
   .description h3 {
-    font-size: 2vw;
+    font-size: 4vw;
     color: #007bff;
   }
   
   .description p {
-    font-size: 1.2vw;
+    font-size: 2vw;
     color: #6c757d;
     line-height: 1.6;
+    font-weight: bold;
   }
   
