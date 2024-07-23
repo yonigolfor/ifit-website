@@ -9,13 +9,14 @@ const ImageWithLoading = ({ src, alt }) => {
     return (
       <div className="image-container rotate-z">
         { loading && <CircularProgress /> }
-        { !loading && <img
+        <img
           src={src}
           alt={alt}
           style={loading ? { display: 'none' } : {}}
-          onLoad={() => setLoading(false)}
+          onLoad={() => {
+            setLoading(false)
+        }}
         /> 
-}
       </div>
     );
   };
