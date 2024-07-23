@@ -1,5 +1,6 @@
 import CircularProgress from '@mui/material/CircularProgress';
 import React, { useState } from 'react';
+import FullSpaceRectangle from './FullSpaceRectangle';
  
 
 
@@ -8,7 +9,11 @@ const ImageWithLoading = ({ src, alt }) => {
   
     return (
       <div className="image-container rotate-z">
-        { loading && <CircularProgress /> }
+        { loading && 
+            <FullSpaceRectangle>
+                <CircularProgress />
+            </FullSpaceRectangle> 
+            }
         <img
           src={src}
           alt={alt}

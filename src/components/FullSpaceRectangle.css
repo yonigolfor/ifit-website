@@ -1,0 +1,23 @@
+.full-space-rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vw; 
+    width: 20vw;  
+    background: linear-gradient(0deg, black, darkgray, black);
+    background-size: 100% 200%;
+    animation: gradient-animation 3s infinite;
+    border-radius: 2vw;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }

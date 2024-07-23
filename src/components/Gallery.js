@@ -11,13 +11,9 @@ function Gallery() {
     <section className="gallery">
       <div className='image-container-container'>
         <div className="image-container">
-          <ImageWithLoading className='rotate-z' src={mockupMainFeed} alt="App preview 1" />
-          <ImageWithLoading className='rotate-z' src={mockupBarChart} alt="App preview 2" />
-          <ImageWithLoading className='rotate-z' src={mockupStopWatch} alt="App preview 3" />
-       
-          {/* <img className='rotate-z' src={mockupMainFeed} alt="App preview 1" /> */}
-          {/* <img className='rotate-z' src={mockupBarChart} alt="App preview 1" /> */}
-          {/* <img className='rotate-z' src={mockupStopWatch} alt="App preview 3" /> */}
+          <ImageWithLoading src={mockupMainFeed} alt="App preview 1" />
+          <ImageWithLoading src={mockupBarChart} alt="App preview 2" />
+          <ImageWithLoading src={mockupStopWatch} alt="App preview 3" />
         </div>
       </div>
     </section>
