@@ -42,7 +42,7 @@ function ContactForm() {
 { sentState === 0 &&
     (  
         <>
-    <h2>לקבלת עדכונים</h2>
+    <h2>הפוך למתעניין מספר #12862</h2>
     { !loading && 
       <form onSubmit={handleSubmit} ref={form}>
         <input 
@@ -50,7 +50,7 @@ function ContactForm() {
           name="from_name"
           value={email} 
           onChange={(e) => setEmail(e.target.value)} 
-          placeholder="Enter your email" 
+          placeholder="israel.israeli@gmail.com" 
           required 
         />
         <button type="submit" dir='rtl'>תעדכנו אותי!</button>
