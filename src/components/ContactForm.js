@@ -42,7 +42,8 @@ function ContactForm() {
 { sentState === 0 &&
     (  
         <>
-    <h2>הפוך למתעניין מספר #12862</h2>
+        {/* 12862 */}
+    <h2>הפוך למתעניין מספר #757</h2>
     { !loading && 
       <form onSubmit={handleSubmit} ref={form}>
         <input 
