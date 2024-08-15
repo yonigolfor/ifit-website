@@ -43,7 +43,7 @@ function ContactForm() {
     (  
         <>
         {/* 12862 */}
-    <h2>הפוך למתעניין מספר #757</h2>
+    <h2>הפוך למתעניין מספר #1077</h2>
     { !loading && 
       <form onSubmit={handleSubmit} ref={form}>
         <input 
@@ -54,7 +54,7 @@ function ContactForm() {
           placeholder="israel.israeli@gmail.com" 
           required 
         />
-        <button type="submit" dir='rtl'>תעדכנו אותי!</button>
+        <button type="submit" dir='rtl'f>תעדכנו אותי כשהאפליקציה בחנות!</button>
       </form>
 }
       </>
