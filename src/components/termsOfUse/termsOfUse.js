@@ -45,6 +45,19 @@ const TermsOfUse = () => {
         </p>
       </section>
 
+      <section className="mb-6">
+        <h2 className="text-xl font-semibold mb-2">6. Subscriptions and Payments</h2>
+        <p>
+          The iFit app may offer auto-renewable subscriptions. 
+          Payment will be charged to your Apple ID account at confirmation of purchase. 
+          Subscriptions automatically renew unless canceled at least 24 hours before the end of the 
+          current billing period. You can manage and cancel your subscriptions by going to your 
+          account settings on the App Store after purchase.
+        </p>
+      </section>
+
+
+
       <section className="mt-10">
         <p className="text-sm text-gray-500">
           For more information, please review our <a href="/privacy-policy" className="text-blue-600 underline">Privacy Policy</a>.
