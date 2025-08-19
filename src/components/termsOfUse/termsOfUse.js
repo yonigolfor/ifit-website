@@ -7,7 +7,7 @@ const TermsOfUse = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">1. Acceptance of Terms</h2>
         <p>
-          By using the iFit app, you agree to be bound by these Terms of Use. If you do not agree to
+          By using the Fituro app, you agree to be bound by these Terms of Use. If you do not agree to
           these terms, please do not use the app.
         </p>
       </section>
@@ -15,7 +15,7 @@ const TermsOfUse = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">2. Use of the App</h2>
         <p>
-          You agree to use the iFit app only for lawful purposes and in a way that does not infringe
+          You agree to use the Fituro app only for lawful purposes and in a way that does not infringe
           on the rights of others or restrict or inhibit their use of the app.
         </p>
       </section>
@@ -23,7 +23,7 @@ const TermsOfUse = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">3. Intellectual Property</h2>
         <p>
-          All content in the iFit app, including logos, design, and text, is owned by us or our
+          All content in the Fituro app, including logos, design, and text, is owned by us or our
           partners. You may not copy, modify, or distribute any part of the app without our prior
           written consent.
         </p>
@@ -48,7 +48,7 @@ const TermsOfUse = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">6. Subscriptions and Payments</h2>
         <p>
-          The iFit app may offer auto-renewable subscriptions. 
+          The Fituro app may offer auto-renewable subscriptions. 
           Payment will be charged to your Apple ID account at confirmation of purchase. 
           Subscriptions automatically renew unless canceled at least 24 hours before the end of the 
           current billing period. You can manage and cancel your subscriptions by going to your 

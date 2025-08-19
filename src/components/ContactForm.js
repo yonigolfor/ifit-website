@@ -64,7 +64,7 @@ function ContactForm() {
       
       {sentState === 1 && !loading &&  <>
       <p style={{ color: 'green', fontSize: '32px', fontWeight: 'bolder' }}>Email sent successfully!</p>
-      <p>Thanks for showing interest in iFit! We will let you know when the app is available.</p>
+      <p>Thanks for showing interest in Fituro! We will let you know when the app is available.</p>
       </>
       }
       {sentState === -1 && !loading && <p>Error sending email. Please try again.</p>}
